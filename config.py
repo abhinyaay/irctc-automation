@@ -3,16 +3,16 @@ Configuration file for IRCTC automation bot
 Fill in your details before running the bot
 """
 
-# IRCTC Login Credentials
-IRCTC_USERNAME = "Praveen1120"
-IRCTC_PASSWORD = "Shashi@715"
+# IRCTC Login Credentials (update with your actual values before running)
+IRCTC_USERNAME = "your_irctc_username"
+IRCTC_PASSWORD = "your_irctc_password"
 
 # Journey Details
-FROM_STATION = "AGC"  # Example: New Delhi
-TO_STATION = "SC"     # Example: Mumbai Central
-JOURNEY_DATE = "27/08/2024"  # DD/MM/YYYY format
-JOURNEY_CLASS = "3A"   # Options: SL, 3A, 2A, 1A
-TRAIN_PREFERENCE = "12951"  # Optional: Specific train number preference
+FROM_STATION = "FROM_CODE"  # Example: NDLS
+TO_STATION = "TO_CODE"      # Example: BCT
+JOURNEY_DATE = "DD/MM/YYYY"  # Use DD/MM/YYYY format
+JOURNEY_CLASS = "3A"         # Options: SL, 3A, 2A, 1A
+TRAIN_PREFERENCE = ""        # Optional: Specific train number preference
 
 # Passenger Details (List of passengers)
 PASSENGERS = [
